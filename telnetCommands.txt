@@ -1,0 +1,26 @@
+in the switch : 
+> enable
+> configure terminal
+> interface vlan 1
+> ip address 192.168.10.100 255.255.255.0
+> no shutdown
+> exit
+
+
+> line vty 0 15
+> password telnet@1234
+> login 
+> exit
+> exit
+> copy running-config startup-config
+
+> config terminal
+> enable password admin@1234
+> copy running-config startup-config
+
+------------------------------------------------
+IN the administrator pc give ip add. then in CLI
+> enable
+> configure terminal 
+> interface fastethernet 0/3
+> shutdown
