@@ -20,6 +20,7 @@ in the switch :
 
 ------------------------------------------------
 IN the administrator pc give ip add. then in CLI
+> telnet 192.168.10.100
 > enable
 > configure terminal 
 > interface fastethernet 0/3
